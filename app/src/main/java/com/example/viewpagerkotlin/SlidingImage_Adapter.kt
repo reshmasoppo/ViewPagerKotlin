@@ -32,10 +32,8 @@ import androidx.viewpager.widget.PagerAdapter
           val imageLayout = inflater.inflate(R.layout.slidingimages_layout, view, false)!!
           val imageView = imageLayout.findViewById(R.id.imageView) as ImageView
           val textView = imageLayout.findViewById(R.id.textView) as TextView
-
           imageView.setImageResource(imageModelArrayList[position].image_drawable)
           textView.setText(imageModelArrayList[position].text_image)
-
           view.addView(imageLayout, 0)
           return imageLayout
       }

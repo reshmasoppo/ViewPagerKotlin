@@ -12,13 +12,13 @@ import kotlin.collections.ArrayList
 
 class MainActivity : AppCompatActivity() {
 
-
     lateinit var pager1:ViewPager
     private var imageModelArrayList: ArrayList<ImageModel>? = null
 
-      private val myImageList = intArrayOf(R.drawable.img_1,
-        R.drawable.img_2, R.drawable.img_1, R.drawable.img_2, R.drawable.img_1,
-        R.drawable.img_2)
+      private val myImageList = intArrayOf(R.drawable.ic_launcher_background,
+        R.drawable.ic_launcher_background, R.drawable.ic_launcher_background, R.drawable.ic_launcher_background, R.drawable.ic_launcher_background,
+        R.drawable.ic_launcher_background)
+
          val myTextList= arrayOf("Travel to the top of the Space Needle's 520 ft"
            ,"Range of the Pacific Northwest and the highest mountain",
            "The Museum of Flight is a private non-profit air",
